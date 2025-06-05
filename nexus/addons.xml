@@ -84,4 +84,22 @@
       <disclaimer>[B][COLOR orange]Repositório Vikings é apenas um AGREGADOR de ADDONS e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
     </extension>
   </addon>
+  <addon id="plugin.video.tvdopassado" name="TV Do Passado" version="KDS1.0" provider-name="Kodish Team">
+    <requires>
+      <import addon="plugin.video.youtube" version="5.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">TV Do Passado</summary>
+      <description lang="en">Um canal dedicada a trazer desenhos antigos com alta qualidade de video.</description>
+      <platform>all</platform>
+      <forum/>
+      <website/>
+      <assets>
+        <icon>icon.jpg</icon>
+      </assets>
+    </extension>
+  </addon>
 </addons>
