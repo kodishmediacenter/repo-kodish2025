@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
   <addon id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial, SEM BANIMENTO, agora compativel com Kodi Matrix!![/B][/COLOR]" version="3.10" provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
     <requires>
@@ -46,6 +46,34 @@
 					[B][COLOR white]Addons deste repositório é de uso gratuito!![/COLOR][/B]
 					[B][COLOR firebrick]Proibido a venda dos add-ons contidos neste repositório[/COLOR][/B]</description>
       <disclaimer>[B][COLOR orange]Repositório Vikings é apenas um AGREGADOR de ADDONS e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
+    </extension>
+  </addon>
+  <addon id="Kodish.repo.store" name="[B]Kodish Store Onimatrix DX[/B]" version="7.2" provider-name="Kodish Team">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="plugin.video.youtube" version="5.0.0"/>
+      <import addon="script.module.six" version="1.0.0"/>
+      <import addon="script.module.kodi-six" version="0.1.3.1"/>
+      <import addon="script.module.simplecache" version="1.0.0"/>
+      <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+      <import addon="script.module.requests" version="2.22.0+matrix.1"/>
+      <import addon="script.module.routing" version="0.2.3"/>
+      <import addon="script.module.simplejson"/>
+      <import addon="resource.language.pt_br"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Kodish Store Onimatrix DX</summary>
+      <description lang="en">Addon Kodish Store Onimatrix DX a versão permite instalar addons da Kodish e seus Parceiros Agora com Suporte ao Kodi 20/21</description>
+      <platform>all</platform>
+      <forum/>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+      <website/>
     </extension>
   </addon>
 </addons>
