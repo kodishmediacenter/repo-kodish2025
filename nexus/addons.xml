@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
   <addon id="plugin.video.topsongs" name="Top Songs" version="1.0" provider-name="Kodish Team">
     <requires>
@@ -10,6 +10,24 @@
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Top Songs</summary>
       <description lang="en">The best Pop music channel ever! Get the latest hits, trending tops, and classic pop songs. Subscribe now so you don't miss out!</description>
+      <platform>all</platform>
+      <forum/>
+      <website/>
+      <assets>
+        <icon>icon.jpg</icon>
+      </assets>
+    </extension>
+  </addon>
+  <addon id="plugin.video.sayrodigital" name="Sayro Digital" version="1.0" provider-name="Kodish Team">
+    <requires>
+      <import addon="plugin.video.youtube" version="5.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Sayro Digital</summary>
+      <description lang="en">Canal Sayro Digital</description>
       <platform>all</platform>
       <forum/>
       <website/>
