@@ -399,22 +399,22 @@ v1.0.0
 	<news>
 	</news>
 </extension>
-</addon><addon id="plugin.program.kodishclient" name="Kodish Client" version="2.0" provider-name="Kodish Team"> 
-<requires>
-    <import addon="xbmc.python" version="3.0.0" />
-</requires>  
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>executable</provides>
-</extension>  
-<extension point="xbmc.addon.metadata">
-    <summary lang="en">Cliente configuração de Fontes da Kodish</summary>
-    <description />
+</addon><addon id="plugin.video.sbtplus" name="SBT Plus" version="1.0" provider-name="Kodish Team">
+  <requires>
+    <import addon="plugin.video.youtube" version="5.0.0" />
+  </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+    <summary lang="en">SBT Plus</summary>
+    <description lang="en">Laucher para assistir SBT Plus no Seu hardware</description>
     <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
+    <forum />
+    <website />
+    <assets>
+    <icon>icon.jpg</icon>
+    <icon>icon.png</icon>
     </assets>
-	<news>
-	</news>
-</extension>
+ </extension>
 </addon></addons>
