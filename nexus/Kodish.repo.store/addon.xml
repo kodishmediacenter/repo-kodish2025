@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="Kodish.repo.store" name="[B]Kodish Store Ohana[/B]" version="8.0" provider-name="Kodish Team">
+<addon id="Kodish.repo.store" name="[B]Kodish Store Ohana MX[/B]" version="8.5" provider-name="Kodish Team">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.youtube" version="5.0.0"/>
@@ -18,7 +18,7 @@
   </extension>
 	
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodish Store Ohana</summary>
+    <summary lang="en">Kodish Store Ohana MX</summary>
     <description lang="en">Addon Kodish Store Ohana a versão permite instalar addons da Kodish e seus Parceiros Agora com Suporte ao Kodi 20/21</description>
     <platform>all</platform>
     <forum></forum>
