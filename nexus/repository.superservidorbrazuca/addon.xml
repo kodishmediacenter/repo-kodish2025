@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.superservidorbrazuca" name="[B][COLOR green]**** Super Servido[/COLOR][COLOR yellow]r Brasileiro ****[/COLOR][/B]" version="7.4" provider-name="Kodish Team">
+<addon id="repository.superservidorbrazuca" name="[B][COLOR green]**** Super Servido[/COLOR][COLOR yellow]r Brasileiro ****[/COLOR][/B]" version="7.5" provider-name="Kodish Team">
 	<extension point="xbmc.addon.repository" name="Super Servidor Brasileiro">
 	<dir>
 		<info compressed="false">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml</info>
@@ -234,6 +234,12 @@
 			<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/repo-kodish2025/refs/heads/main/nexus/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/kodishmediacenter/repo-kodish2025/refs/heads/main/nexus/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/repo-kodish2025/refs/heads/main/nexus/</datadir>
+    </dir>
+	<dir>
+      <info compressed="false">https://raw.githubusercontent.com/cineroom1/repo.cineroom/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/cineroom1/repo.cineroom/main/addons.xml.md5</checksum>
+      <datadir>https://raw.githubusercontent.com/cineroom1/repo.cineroom/main/repo/</datadir>
+      <hashes>false</hashes>
     </dir>
 	</extension>
 	
