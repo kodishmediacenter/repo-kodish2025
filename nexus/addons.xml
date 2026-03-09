@@ -693,4 +693,30 @@ v1.0.0
 	<news>news
 	</news>
 </extension>
-</addon></addons>
+</addon><addon id="plugin.video.Hades" name="[B][COLOR pink]HA[/COLOR][COLOR yellow]DES[/COLOR][/B]" version="0.0.0.1" provider-name="R.O PV">  
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">O ADDON HADES by R.O é um addon multifuncional de entretenimento para Kodi, projetado para oferecer acesso rápido e organizado a conteúdos de TV Ao Vivo, Filmes e Séries. Com uma interface intuitiva e ícones personalizados, ele conecta você aos melhores servidores de streaming com máxima estabilidade.TV Ao Vivo: Grade completa de canais com suporte a EPG (Guia de Programação) para você saber o que está passando.Cinema e Séries (VOD): Milhares de títulos atualizados, com sinopses detalhadas, capas e notas de avaliação.Busca Inteligente: Ferramenta de busca individual em cada aba (TV, Filmes e Séries) para encontrar seu conteúdo favorito em segundos.Área VIP/Adulta: Conteúdo restrito com controle parental protegido por PIN.</summary>
+    <description lang="en">[COLOR yellow]ADDON HADES é apenas um Agregador de link's para midia center Kodi, todos os links aqui são achados na internet e organizados no addon, por isso sua contribuiçâo ao projeto é muito importante para ajudar a manter o addon online.[/COLOR]</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>Icon.png</icon>
+       <fanart>Fanart.jpg</fanart>
+<screenshot>https://archive.org/download/hadesinformacaodaconta/hadesinformacaodaconta.png</screenshot>
+<screenshot>https://archive.org/download/hadesfilmes/hadesfilmes.png</screenshot>
+<screenshot>https://archive.org/download/hadesfilmes/hadesseries.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+</addons>
