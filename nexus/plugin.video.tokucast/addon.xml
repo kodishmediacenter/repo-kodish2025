@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tokucast" name="Tokucast" version="2.0" provider-name="Kodish Team">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Tokucast Audio</summary>
+    <summary lang="de_DE">Tokucast Audio</summary>
+    <description lang="en_GB">Maior addon de podcast sobre tokusatsu</description>
+    <description lang="de_DE">Maior addon de podcast sobre tokusatsu</description>
+    <language>en de</language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+	<fanart>fanart.png</fanart>
+    </assets>
+  </extension>
+</addon>
